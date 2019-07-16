@@ -1,0 +1,251 @@
+%\pagestyle{article}
+\documentclass[a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % for figures
+\usepackage[section]{placeins} %This prevents placing floats before a section.
+\usepackage{csquotes}
+
+\usepackage{wrapfig} % curtesy of LAURA PETRA - til dit billede i CV
+
+\usepackage{marginnote} % For margin years CV
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}} % New command for including margin years
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt} % Slightly increase the distance of the margin years from the contant
+\reversemarginpar
+
+\usepackage{natbib}% better citation
+%\usepackage{hyperref} %autoref
+\usepackage[hidelinks]{hyperref} %hidelinks to remove ugly blue format
+\usepackage{amsmath} % for \tag and \eqref macros in mathematical eq.
+
+%% Sets linestretch, paragraphstrech, indentation and footnote stuff 
+\usepackage{parskip} %space between paragraphs
+\parskip=0pt %set space between paragraphs
+\setlength\parindent{12pt} %paragraf indentation
+\usepackage[onehalfspacing]{setspace} %linespacing; does not affect footnotes
+\setlength{\footnotesep}{0.7\baselineskip}% space between footnotes
+\usepackage[hang,flushmargin]{footmisc} %% removes identation in footnoteshttps://www.overleaf.com/project/5b98e00a21d3bd15ac5a2e86
+
+\usepackage{makecell} % make cells in tabels for longer text
+
+\usepackage[colorinlistoftodos]{todonotes}
+
+%% For header and footer (1)
+% Marco
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\textwidth = 452pt% 424pt % test width ish
+\oddsidemargin = 0pt %18pt % margin width ish
+
+\fancyheadoffset{0 in} % Shifty solutions..
+
+\fancyhf{} %% clear defuelt header and footer
+
+%% For header and footer (2)
+%Specifics
+\lhead{Simon P. von der Maase}
+\rhead{\today}
+
+\lfoot{University of Copenhagen}
+\rfoot{\thepage}
+\renewcommand{\footrulewidth}{0.8pt}
+
+\title{\textbf{Bodies as Battleground} \\ PhD Application}
+
+\author{Simon Polichinel von der Maase}
+\date{May 2019}
+
+\begin{document}
+
+	\begin{titlepage}
+		\maketitle
+		%Character count: 43.950/44.000\\
+		\noindent\rule{\linewidth}{0.4pt}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.32]{KU_logo.png}
+		\end{figure}
+		\thispagestyle{empty} % removes page number on front page
+	\end{titlepage}
+    \tableofcontents
+\pagebreak
+
+% \section{Application} if below should be subsections.
+
+\section{Cover Letter/Motivation} 
+%detailing your motivation and background for applying for the specific PhD project
+%(I like this on after the project description actually..) On the other side this need to serve as an introduction as well.
+
+% "Are you the right candidate? Preferred applicants will have an interest in questions related to conflict, gender, images, photojournalism and quantitative methodologies. We are looking for candidates with strong analytical skills and proven quantitative methodological qualifications. Experience in working with the Georeferenced Event Dataset from the Uppsala Conflict Data Program or similar datasets is an advantage but not a requirement."
+
+
+% What you apply for
+The following is an application for the position as Phd. Student within the Research Project “Bodies as Battleground: Gender Images and International Security”. Specifically under the sub-project concerning the "correlation between the level of violence in armed conflict and the representation of gender in war photography"\cite{XXXX}.\par % nice to haev, but remove later
+
+% Why you apply for this?
+My motivation for applying for this scholarships is multifaceted. First of all, conflict research has been my prime politological subject of interest since even before I started my bachlor and it was one of two main focuses doing my masters program. Secondly, the other prime focus of my masters program have been advanced quantitative and computational methods. Indeed it is the intersection between modern computational methods and conflict studies which have been the focal for my whole masters program as well as my master thesis. Third.. gender stuff ... Fourth, while the I have yet to use automated image analysis in any research project, it is something that I have long wanted to undertake and something which potential could benefit a project such as this one greatly. As such my interest aligns remarkably well with the subject and methods of this project.
+
+
+
+% What have you done before?
+Appropiatly my skills match my interest. I have done this and that and my mastes thesis... said thesis I specifically use georeferenced data from UCDP in tandem with advanced machnie learning methods to predict the time and place of furture conflicts using only the past pattern of conflict... Something higly disaggregated unite of analysis... Point:
+
+% How does this feed in to the project?
+
+% Bridge
+As such given the focus of this project and the data provided I see a near-perfect fit between this project and the abilities and interes of mine
+
+\section{Project description} 
+(max. 5 pp. double-spaced, not including bibliography) 
+
+% THE WORLD; what is the problem? ++++++++++++++++++++++++++++++++++++++++++++++++++++
+%Teaser 
+Bodies as battleground... read background lit... Women's bodies are contested... 
+
+%The more specific problem
+...
+
+% Why this is very important:
+Examining the ... will not only enhance our understanding but also...
+
+% Bridge
+...
+
+% The Science; how have this problem been handled before? +++++++++++++++++++++++++++++
+% What have been done before
+Nothing?
+
+% what was wrong with this
+...
+
+% what we need to fix
+...
+
+% bridge
+...
+
+% This project; How are you gonna do it (new/better)? ++++++++++++++++++++++++++++++
+% so you are gonna do better?
+Using the data set containing war photos available for the project in tandem with modern computational methods we can start answering such questions.
+
+% overall RC
+As formulated in the Phd scholarship annoncement, the overarching research question for the specific sub-project is whether there
+"[...] a correlation between the level of violence in armed conflict and the representation of gender in war photography?" (ref Fra opslag)
+
+% More speicifically
+The literature suggests that more violence leads more traditional gender norms (ref. from Lenes app.). Unfortunately we can not deduced the actually genders norms and roles, but we can deduced how genders are portrait and represented in war photography.
+
+% How?
+We have good data. What we need now is precise hypothesis with clear theoretical underpinnings and a appropriate and corresponding methodological framework....
+
+% What do you mean by "precise hypothesis"?
+... Cederman et al. siger noget?
+
+% tree cat of photos
+but we also have other hypothesis to test; is there any difference between the pictures taken, the pictures send to editing and the pictures published in papers? (what would you expect). Would you expect the publisher to be more prone to fall into stereotypical gender representations then the photographers? Maybe no H, but just but it op as a research area...
+
+% The different genders of the photografers
+Furthermore since we have tree male photographers and three female photographers we can also examine. 
+
+% What do you mean by " appropriate and corresponding methodological framework."?
+Having these hypothesis we still need to create a methodological framework which will help answer these hypothesis in a theoretical appropriate way.
+
+% Coding of the data
+....
+
+% Image recognition
+Could perhaps be used, at least we need to try does requirer that we code + 100.000 pictures.
+
+% Agrregation
+Using event data such a the data from UCDP is goe-coded for specific coordinates and timestamped for specific time -- with more or less precision. So are the photos (skriv toæ Johan). Naturally these specific coordinates needs to be aggregated into some unite of analysis. Conventional conflict studies have often used country years, but naturally this is much to crude for the project at hand. I purpose a spatial aggregation at the level of the PRIO GRID. (0.5x0.5 decimal degrees). and a temporal aggregation at (mothly?) level. This will give us a unit of analysis consiting of one grid cell one specific month/week. 
+
+% limits of disaggregation
+Something about the computational burden of much disaggragation... An that the data can get to sparse..
+
+% Spatial and temporal auto corrolation: GP's
+The problem with arbitrary aggregation and for that matter autocorrolation leads to GP's!
+
+
+% Evaluation -> out-of-sample predicitons/LOO
+However, it is not only the estimation framework which is important; so is the evaluation. Out-of-sample prediction or eqavelent is the way forward (greenhill, McEldrith, Shcordt ect) and good arguments.
+
+
+
+
+
+
+% OLD: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Image recognition... can be used for... in time feed into early warning systems where it could amend issues challenges text data ect.
+
+
+% "The project: “Bodies as Battleground: Gender Images and International Security” addresses three themes: gender, security and images. The project starts from a discursive conception of security, an understanding of gender as cultural, and the image as open to multiple interpretations. The overall research question of the project is: "How are gender-specific security problems constituted through images?" The project employs a mixed-method strategy and is organized around four sub-projects. These show the importance of historical context for how gender security problems might be shown, the relationship between levels of violence and gender representation in war photography, the way gender norms are reproduced or challenge in photographic images, and the possibilities of images to bring theoretical attention to "invisible" security problems."
+
+% The following criteria are used when shortlisting candidates for assessment:
+
+% 1. Research qualifications as reflected in the project proposal.
+% 2. Quality and feasibility of the project.
+% 3. Qualifications and knowledge in relevant social science disciplines.
+% 4. Performance (grades obtained) in graduate and post-graduate studies.
+
+\section{Time schedule} 
+...
+
+\subsection{Temporary bibliography}
+% - Temporary
+\bibliographystyle{apalike} 
+\bibliography{app_conf.bib}
+
+\pagebreak
+\section{Appendix}
+
+\subsection{Budget}
+
+\begin{center}
+\begin{tabular}{  m{10cm} m{4cm} } 
+
+	\hline
+	\textbf{Activity}    & \textbf{Expenditure}\\
+	\hline
+	    &                               \\
+%	Conferences attendances (at least two)   & 6000 - 16.000 Dkr.                       \\
+%    Research stay at Oslo or Uppsala (travel ex.)    & 1000 - 2000 Dkr.				\\
+%	Cloud computing (rent)   & 1500 - 3000 Dkr.			                                \\
+%    Course at DTU (at least two) & 0 Dkr.			                                \\
+% 	Activity 5   & X Dkr.	            \\	
+%     Activity 6   & X Dkr.			    \\
+%     Activity 7   & X Dkr.			    \\
+% 	Activity 8   & X Dkr.			    \\
+%  	Activity 9   & X Dkr.				\\
+ 	    &                               \\
+ 	\hline
+    \textbf{Total}       & 8500 - 21.000 Dkr.			    \\
+    \hline
+
+\end{tabular}
+\end{center}
+
+
+\pagebreak
+\subsection{CV}
+
+My CV can be found in the appended file "\textbf{2\_curriculum\_vitae.pdf}"
+
+%\pagebreak
+\subsection{Bachelor's Diploma}
+
+My bachelor's diploma can be found in the appended file "\textbf{3\_diplomas\_and\_transcipts\_of\_records.pdf}"
+
+\subsection{The master's thesis contract and approval}
+
+The master's thesis contract can be found in the appended file "\textbf{3\_diplomas\_and\_transcipts\_of\_records.pdf}"\par
+
+The corresponding approval can be found in the appended file "\textbf{3\_diplomas\_and\_transcipts\_of\_records.pdf}"
+
+\subsection{Grades}
+
+At the time of writing my average at this master's program is 10.8. I finished my bachelor's degree with an average of 7.5. All grades (from master's and bachelor's alike) can be found in the appended file "\textbf{3\_diplomas\_and\_transcipts\_of\_records.pdf}". The official bachelor-grade-card can be found in the append file "\textbf{3\_diplomas\_and\_transcipts\_of\_records.pdf}".\par
+
+
+\end{document}
