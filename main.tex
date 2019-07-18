@@ -119,25 +119,28 @@ As such, the question of how violent conflicts interacts and changes the percept
 % Gendeer based ... not been incorporate into secutity theories
 
 % Bridge
-However, while the project might hold both high relevance and great potential, using images as data in quantitative frameworks is a very new addition to social sciences research -- even more so conflict studies specifically. [læs papir om image data]. As such, a myriad of methodological and theological challenges lies before us -- but so does a lot of opportunities.\par
+However, while the project might hold both high relevance and great potential, using images as data in quantitative frameworks is a very new addition to social sciences research -- even more so conflict studies specifically. [læs papir om image data]. As such, a myriad of methodological and theological challenges lies before us -- and so does a lot of opportunities.\par
 
 % The Science; how have this problem been handled before? +++++++++++++++++++++++++++++
 % Specific challenges in light of current research
+Specifically, two major challenges facing the effort is how to best utilize the image data and how to handle the unit of analysis in a theoretical and methodological sound manner.\par
 
-- images
-- disaggregated data - temporal and spatial autocorrolation 
-- stuff
+% with imarges: ()
+- images -- need to answer what you will use deep learning for?
 
---> så gå du videre til hvordan du bruger det...
+% Why disaggragated data
+Regarding the unit of analysis, most traditional quantitative studies of conflicts have used country-years \cite{XXX}. This is naturally A very coarse unit of analysis. In reality conflicts - especially internal - rarely encompasses entire countries, but are often confined to specific regions \cite[487]{Cederman_Gleditsch_2009}. As such, we miss important nuances and patterns when treating conflict as a phenomenon which is necessarily country-wide. Some regional conflicts will be presented as country-wide, while other serious regional conflicts will be treated as non-conflicts. As a results past quantitative analyses have often missed important aspects and mechanism of conflicts \cite{Cederman_Gleditsch_2009, Cederman_Gleditsch_Buhaug_2013}. As formulated by \cite{Cederman_Gleditsch_2009}: "If our theories are disaggregated, then our empirical analyses and research designs should reflect this" \citep[490]{Cederman_Gleditsch_2009}.\par 
 
-% what was wrong with this
-...
+% The challenges of disaagregated data (autocorrolation):
+Importantly this point is just as relevant for the temporal dimension of conflict as it is for the spatial dimension. That appropriate unit of analysis might well be both sub-country and sub-year. We need a sound unit of analysis and we need to consider this unit of analysis when we formulate our hypothesis, when we choose our data, When we construct our models and when we evaluate our results. as an example using a highly disaggregated unit of analysis increases the relevance of handle both temporal and spatial auto-correlation. If a violent conflict is present in one village, one specific day it stands to reason that said village will still experience the fallout of said violence the next day, week and month even if the violence stops. In similar manner the neighboring village might also experience consequences of the violence even if it was not the specific geographical site of the conflict. As presented in \cite{SPECIALE} past efforts have largely failed to create a methodological and theoretical coherent solution to this problem.\par 
 
-% what we need to fix
-...
+% Other challenges with disaggragated data.
+
 
 % bridge
-...
+Regarding 
+
+- the cool thing about GP; you can estimate the spread in time and space - if we find a corrolation...
 
 % This project; How are you gonna do it (new/better)? ++++++++++++++++++++++++++++++
 % How are you gonna handle these challenges?
@@ -190,6 +193,20 @@ However, it is not only the estimation framework which is important; so is the e
 
 
 % OLD: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+% The challenge of auto corrolation
+% -------------------
+
+% Better solutions 2 - but we still have a problem
+%Two studies which do take a disaggregated approach are \cite{ol2010afghanistan} and \cite{weidmann_ward_2010predicting}. \cite{ol2010afghanistan} do a commendable job of showing the diffusion of conflict from Afghanistan to Pakistan over the Duran Line from a disaggregated perspective, while \cite{weidmann_ward_2010predicting} illustrate how spatial and temporal patterns influenced the civil strife in Bosnia between 1992 and 1995. The challenge is that, using a disaggregated approach, we still have to decide how to include the effects of bad neighbours - the neighbours now simply being some sub-country unit. Indeed the uncertainty of how many bad neighbours to include only amplifies as we move from country to the sub-country level. Here 2$^{nd}$, 3$^{th}$, 4$^{th}$ and potential n$^{th}$ order neighbors will have to be considered, preferably with some demising influence as a function of distance, given the insight from \cite{schutte2011diffusion}. Furthermore, given the bell-curve-like properties of conflict diffusion it seems logical that the magnitude of adjacent conflicts also have an important part to play.\par
+
+%  what we should do
+%Unfortunately, both \cite{ol2010afghanistan} and \cite{weidmann_ward_2010predicting} only choose to include a dummy for conflict in 1$^{st}$ order neighbors. The operationalization presented in \cite{Maase} is hardly any better; here distance to nearest conflict is used without taking into account the magnitude of this conflict, or the number of other adjacent conflicts zones. And even if the study had included the 2. nearest conflict, the 3. nearest conflict etc., and scaled the distance by some factor related to the magnitude of conflict, we would still not know if these conflicts surrounded and engulfed the observation of interest or instead clustered neatly and distinctly beside it. The pattern of conflict might matter; the magnitude of conflict might matter; the magnitude of adjacent conflicts in 1$^{st}$, 2$^{nd}$ and n$^{th}$ order might matter. Again the point is clear: modeling features to capture these phenomena must be an estimation effort in and of itself.\par
+
+
+% --------------------
+
+%Now, using sub-country units requires more computational power, better models, and not least the right data. Such obstacles have previously impeded sub-national analysis on a wider scale. Encouragingly, recent developments in statistics, technology, and data availability address these issues and make highly disaggregated studies possible \citep[446]{ol2010afghanistan}.
+
 
 Image recognition... can be used for... in time feed into early warning systems where it could amend issues challenges text data ect.
 
