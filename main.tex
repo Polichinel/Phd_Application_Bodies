@@ -110,10 +110,10 @@ Thus, given your focus and your data I see a clear fit between your project on o
 % ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 % Intro 
-It has been argued that as violent conflict increases, gender roles changes towards more traditional norms. Men are seen as providers of protection and women as in need of this protection \cite{elshtain1995women, carpenter2003women}. Further more in situations of conflicts it has also been argued that women are perceived as more emotional while men are perceive as more rational \cite{elshtain1993public}. If this is indeed the case then it seems that conflict in itself transform women from actors into subordinate victims -- at least in the eyes of the beholder.\par 
+It has been argued that as violent conflict increases, gender roles changes towards more traditional norms. Men are seen as providers of protection and women as in need of this protection \citep{elshtain1995women, carpenter2003women}. Further more in situations of conflicts it has also been argued that women are perceived as more emotional while men are perceive as more rational \citep{elshtain1993public}. If this is indeed the case then it seems that conflict in itself transform women from actors into subordinate victims -- at least in the eyes of the beholder.\par 
 
 % The more specific problem
-This constitutes a number of problems. First of all if violent conflict in itself diminishes the roles of women to that of emotional victims they might lose both their voice and agency doing such conflict \cite{hansen2000gender, hansen2000little}. Naturally this leaves women in a vulnerable and unfavorable position \citep[XXX]{hansen2000little} -- a position which has the potential to linger long after the conflict has settled (ref). Secondly, by reducing the role women to fragile beings in need of male protection we will also fail to recognize the very active - and sometimes destructive - role women have played in conflicts \citep[XXX]{hansen2000gender}. Such blind-spots will impede reconciliation and obscure valuable lesson which could otherwise be used for future conflict prevention.\par
+This constitutes a number of problems. First of all if violent conflict in itself diminishes the roles of women to that of emotional victims they might lose both their voice and agency doing such conflict \citep{hansen2000gender, hansen2000little}. Naturally this leaves women in a vulnerable and unfavorable position \citep[XXX]{hansen2000little} -- a position which has the potential to linger long after the conflict has settled (ref). Secondly, by reducing the role women to fragile beings in need of male protection we will also fail to recognize the very active - and sometimes destructive - role women have played in conflicts \citep[XXX]{hansen2000gender}. Such blind-spots will impede reconciliation and obscure valuable lesson which could otherwise be used for future conflict prevention.\par
 
 % Why this is very important:
 As such, the question of how violent conflicts interacts and changes the perceptions of genders is a highly relevant question not just of academic interest but also of practical importance. Given the data obtained for this project we can now start answering such questions by examining to what extent transformations of gender roles are apparent in the photographs taken by journalists in conflict zones.\par
@@ -134,7 +134,7 @@ Naturally, the fact that we are working with journalistic photographs determines
 The coding of the images itself also constitutes a huge practical challenge. In practise we do not want to classify whole pictures but rather specific objects, persons or situations in the pictures. Adding to this the scope of the dataset, we would be hard pressed to "hand code" all images included in the the dataset. We could settle for a subset, but given the rapid development in computational techniques for image recognition, this would constitute a missed opportunity. Instead we must consider who to use theses advanced new tools to effectuate the coding processes.\par 
 
 % Why disaggragated data
-Turning challenges regarding the the unit of analysis, it is important to recognize that time and space are, at the fundamental level, continues dimensions. However, to work with these dimensions using quantitative tools we need to aggregated them at some discrete level. Most traditional quantitative studies of conflicts have aggregated these dimensions into \emph{country-years} (see such articles as \cite{Collier_Hoeffler_1998, Fearon_Laitin_2003, Collier_Hoeffler_2004, Fearon_2004, Ross_2004, Fearon_2005, Hegre_Sambanis_2006, Goldstone_2010}). While this aggregation might be appropriate in some settings, it does create a very coarse unit of analysis. In reality conflicts -- especially internal -- rarely encompasses entire countries, but are often confined to specific regions \cite[487]{Cederman_Gleditsch_2009}. As such, we miss important nuances and patterns when treating conflict as a phenomenon which is necessarily country-wide. Some regional conflicts will be presented as country-wide, while others will be treated as non-conflicts. As a results past quantitative analyses have often missed important aspects and mechanism of conflicts \cite{Cederman_Gleditsch_2009, Cederman_Gleditsch_Buhaug_2013}. As formulated by \cite{Cederman_Gleditsch_2009}: "If our theories are disaggregated, then our empirical analyses and research designs should reflect this" \citep[490]{Cederman_Gleditsch_2009}. A point which is naturally as relevant for the temporal dimension of conflict as it is for the spatial dimension.\par 
+Turning challenges regarding the the unit of analysis, it is important to recognize that time and space are, at the fundamental level, continues dimensions. However, to work with these dimensions using quantitative tools we need to aggregated them at some discrete level. Most traditional quantitative studies of conflicts have aggregated these dimensions into \emph{country-years} (see such articles as \cite{Collier_Hoeffler_1998, Fearon_Laitin_2003, Collier_Hoeffler_2004, Fearon_2004, Ross_2004, Fearon_2005, Hegre_Sambanis_2006, Goldstone_2010}). While this aggregation might be appropriate in some settings, it does create a very coarse unit of analysis. In reality conflicts -- especially internal -- rarely encompasses entire countries, but are often confined to specific regions \citep[487]{Cederman_Gleditsch_2009}. As such, we miss important nuances and patterns when treating conflict as a phenomenon which is necessarily country-wide. Some regional conflicts will be presented as country-wide, while others will be treated as non-conflicts. As a results past quantitative analyses have often missed important aspects and mechanism of conflicts \citep{Cederman_Gleditsch_2009, Cederman_Gleditsch_Buhaug_2013}. As formulated by \cite{Cederman_Gleditsch_2009}: "If our theories are disaggregated, then our empirical analyses and research designs should reflect this" \citep[490]{Cederman_Gleditsch_2009}. A point which is naturally as relevant for the temporal dimension of conflict as it is for the spatial dimension.\par 
 
 % The challenges of disaagregated data :
 Given that the dataset contains images with a approximate location and time stamp, and that we will utilize the UCDP data base to track violence in conflicts, we have a great opportunity to create the specific unit of analysis which best aligns with our theoretical expectation regarding the relationship between the depiction of gender roles and violent conflicts. This is crucial, because if we are to ask and answer the right questions we need a theoretical sound unit of analysis, we need to consider our various hypotheses when we create this unit and we need to consider our unit when we handle our data, when we construct our models and when we evaluate our results.\par 
@@ -161,12 +161,12 @@ The first step will be to formulate theoretical precis and concise hypotheses (r
 We might also have questions regarding whether the gender of the journalist and the fate of the photography after it was captured. These questions also needs to be formulated into hypotheses, but these will take the form of more conditional hypothesis. To capture such conditions and interactions I will use Bayesian multilevel models \citep{Gelman_2006, Gelman_2013, Mcelreath_2018}. Such models ...\par
 
 % -> fortæl hvordna du vil classificere billede jf. de hypoteser 
-Having precis hypotheses and using the appropriate models, however, is not enough. The photographs must of course be coded in a manner which corresponds to the hypotheses we want to test. If one hypothesis concerns that women will wear more traditional cloths, we will need to conceptualize what this means, whether this should be a binary or interval based measure and so forth. Having conceptualized clear coding rules, I will hand-code (label) a large subset of pictures. However, to take full advantage of the dataset I will train a \emph{Convoluted Neural Network} to classify the remaining photographs \cite[XX]{francois2017deep}. Not only will this ease the burden of labeling all the pictures, it will also able us automatically label new images for use in future endeavours.\par    
+Having precis hypotheses and using the appropriate models, however, is not enough. The photographs must of course be coded in a manner which corresponds to the hypotheses we want to test. If one hypothesis concerns that women will wear more traditional cloths, we will need to conceptualize what this means, whether this should be a binary or interval based measure and so forth. Having conceptualized clear coding rules, I will hand-code (label) a large subset of pictures. However, to take full advantage of the dataset I will train a \emph{Convoluted Neural Network} to classify the remaining photographs \citep[XX]{francois2017deep}. Not only will this ease the burden of labeling all the pictures, it will also able us automatically label new images for use in future endeavours.\par    
 %  Aggregating images and violence at the level of PRIO grid.
 Having labeled all images, these needs to merge with the data on conflict fatalities from  the \emph{Uppsala Conflict Data Program} (UCDP) \citep{Sundberg_2013, Croicu_Sundberg_2017}. Specifically I will utilize the UCDP Geo-referenced Event Dataset (GED) Global version 18.1 \citep{UCDP_2017}. As of now, the data span the years 1989-2018 and contains records of conflict fatalities and the corresponding coordinates and dates. Naturally we cannot match to pictures and episodes of conflict violence on the specific coordinates and time. We need some manageable geographical and temporal unit of analysis. The specifically temporal unites will depend on how precise the timestamp on the photographs are. Since we know that conflict magnitudes varies greatly across countries experiencing conflicts I want the geographical unit should an sub-national unit. Specifically I will use the PRIO grid. This is a global grid dividing the world -- excluding Greenland and Antarctica -- into grid cells of $0.5 \times 0.5$ decimal degrees, which corresponds to roughly $50km\times50km$ at the equator \citep[367]{Tollefsen_2012}. It is constructed as geo-spatial vector data and primed for collaboration with the UCDP data. As such merging and handling these two data sources is a trivial task.\par
 
 % Handling autocorrolations with GP's in BMML's
-GP handels spatail and temproal autocorrolation and works well whit baysian MML
+Now, using such highly disaggregated unit of analysis, I must take into account the massive temporal and spatial auto-correlation between these units. For the I will use Gaussian processes \cite{williams2006gaussian}. This advanced machine learning technique are remarkable will suited of  such challenges \citep{Gelman_2013, gelfand2016spatial, Mcelreath_2018, SPECIALE}. Indeed I illustrated the potential of this approach in \cite{SPECIALE} where I also explain why Gaussian process fits with the theoretical expectations regarding various conflict patterns\citep[XXX]{SPECIALE}. Enquiringly, the Gaussian process can readily be implemented in tandem with Bayesian Multilevel models \citep[XXX]{Mcelreath_2018}. Thus Gaussian process will allow us to handle the strong auto-correlation of highly disaggregated data.\par
 
 
 %-> så fortæl hvad med så mere kan med GP's 
@@ -174,9 +174,11 @@ GP handels spatail and temproal autocorrolation and works well whit baysian MML
 
 
 
+% OLD -------------------------------------------------------------------
+
 
 % How can you handle the challenges?
-To handle the specific challenges of image data I will employ A type of deep learning called \emph{Convoluted Neural Networks} \cite[XXXX]{francois2017deep}. The challenge of creating a framework suitable for disaggregated I will handle by using the Machine learning technique of Gaussian processes \cite{williams2006gaussian}.\par 
+%To handle the specific challenges of image data I will employ A type of deep learning called \emph{Convoluted Neural Networks} \cite[XXXX]{francois2017deep}. The challenge of creating a framework suitable for disaggregated I will handle by using the Machine learning technique of Gaussian processes \cite{williams2006gaussian}.\par 
 
 % Specifically on images you will....
 
@@ -192,53 +194,47 @@ To handle the specific challenges of image data I will employ A type of deep lea
 %we have a lot, they all need classification. hiring student-coders to classify all images requires a lot of resources ... bla bla... using deep learning for opject reqognition in imarges.... still needs some a large set of hand coded images, but after a model is satisfyingly precise we can add as many new photographs as we want with no need to use scares resources on further trivial coding tasks. But there is an other even more interesting opportunity... which is... [igen læs papire for inspiration]\par
 
 
-Enquiringly, I have already presented are utilized and approach for handling the spatial 
+%Enquiringly, I have already presented are utilized and approach for handling the spatial 
 
 
-Appropriately I have already.... bla bla.. Using such modern computational approaches in tandem with the data set containing war photos available for the project we can start answering such questions. bla bla.. \par
+%Appropriately I have already.... bla bla.. Using such modern computational approaches in tandem with the data set containing war photos available for the project we can start answering such questions. bla bla.. \par
 
 % What questions to ask
-As formulated in your scholarship-announcement, the overarching research question for the specific sub-project concerns whether there is "[...] a correlation between the level of violence in armed conflict and the representation of gender in war photography?" (ref Fra opslag). Naturally we need even more precise and concrete hypotheses then this.\par % "precise hypothesis"?... Cederman et al. siger noget?
+%As formulated in your scholarship-announcement, the overarching research question for the specific sub-project concerns whether there is "[...] a correlation between the level of violence in armed conflict and the representation of gender in war photography?" (ref Fra opslag). Naturally we need even more precise and concrete hypotheses then this.\par % "precise hypothesis"?... Cederman et al. siger noget?
 
 
 % How to answer these questions?
-... \par
+%... \par
 
 % tree cat of photos
-But we also have other hypothesis to test; is there any difference between the pictures taken, the pictures send to editing and the pictures published in papers? (what would you expect). Would you expect the publisher to be more prone to fall into stereotypical gender representations then the photographers? Maybe no H, but just but it op as a research area...
+%But we also have other hypothesis to test; is there any difference between the pictures taken, the pictures send to editing and the pictures published in papers? (what would you expect). Would you expect the publisher to be more prone to fall into stereotypical gender representations then the photographers? Maybe no H, but just but it op as a research area...
 
 % The different genders of the photografers
-Furthermore since we have tree male photographers and three female photographers we can also examine. 
+%Furthermore since we have tree male photographers and three female photographers we can also examine. 
 
 % What do you mean by " appropriate and corresponding methodological framework."?
-Having these hypothesis we still need to create a methodological framework which will help answer these hypothesis in a theoretical appropriate way.
+%Having these hypothesis we still need to create a methodological framework which will help answer these hypothesis in a theoretical appropriate way.
 
 % Coding of the data
-....
+%....
 
 % Image recognition
-Could perhaps be used, at least we need to try does requirer that we code + 100.000 pictures.
+%Could perhaps be used, at least we need to try does requirer that we code + 100.000 pictures.
 
 % disaggregation
-Using event data such a the data from UCDP is goe-coded for specific coordinates and timestamped for specific time -- with more or less precision. So are the photos (skriv toæ Johan). Naturally these specific coordinates needs to be aggregated into some unite of analysis. Conventional conflict studies have often used country years, but naturally this is much to crude for the project at hand. I purpose a spatial aggregation at the level of the PRIO GRID. (0.5x0.5 decimal degrees). and a temporal aggregation at (mothly?) level. This will give us a unit of analysis consiting of one grid cell one specific month/week. 
+%Using event data such a the data from UCDP is goe-coded for specific coordinates and timestamped for specific time -- with more or less precision. So are the photos (skriv toæ Johan). Naturally these specific coordinates needs to be aggregated into some unite of analysis. Conventional conflict studies have often used country years, but naturally this is much to crude for the project at hand. I purpose a spatial aggregation at the level of the PRIO GRID. (0.5x0.5 decimal degrees). and a temporal aggregation at (mothly?) level. This will give us a unit of analysis consiting of one grid cell one specific month/week. 
 
 % limits of disaggregation
-Something about the computational burden of much disaggregation... An that the data can get to sparse..
+%Something about the computational burden of much disaggregation... An that the data can get to sparse..
 
 % Spatial and temporal auto corrolation: GP's
-The problem with arbitrary aggregation and for that matter autocorrolation leads to GP's!
+%The problem with arbitrary aggregation and for that matter autocorrolation leads to GP's!
 
 % Estimation the "diffusion of change" with GP
 
 % Evaluation -> out-of-sample predicitons/LOO
-However, it is not only the estimation framework which is important; so is the evaluation. Out-of-sample prediction or eqavelent is the way forward (greenhill, McEldrith, Shcordt ect) and good arguments.
+%However, it is not only the estimation framework which is important; so is the evaluation. Out-of-sample prediction or eqavelent is the way forward (greenhill, McEldrith, Shcordt ect) and good arguments.
 
-
-
-
-
-
-% OLD: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 % The challenge of auto corrolation
 % -------------------
 
@@ -253,9 +249,7 @@ However, it is not only the estimation framework which is important; so is the e
 
 %Now, using sub-country units requires more computational power, better models, and not least the right data. Such obstacles have previously impeded sub-national analysis on a wider scale. Encouragingly, recent developments in statistics, technology, and data availability address these issues and make highly disaggregated studies possible \citep[446]{ol2010afghanistan}.
 
-
-Image recognition... can be used for... in time feed into early warning systems where it could amend issues challenges text data ect.
-
+%Image recognition... can be used for... in time feed into early warning systems where it could amend issues challenges text data ect.
 
 % "The project: “Bodies as Battleground: Gender Images and International Security” addresses three themes: gender, security and images. The project starts from a discursive conception of security, an understanding of gender as cultural, and the image as open to multiple interpretations. The overall research question of the project is: "How are gender-specific security problems constituted through images?" The project employs a mixed-method strategy and is organized around four sub-projects. These show the importance of historical context for how gender security problems might be shown, the relationship between levels of violence and gender representation in war photography, the way gender norms are reproduced or challenge in photographic images, and the possibilities of images to bring theoretical attention to "invisible" security problems."
 
